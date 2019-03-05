@@ -1,0 +1,180 @@
+body,html{
+height: 100%;
+margin: 0;
+padding: 0;
+background: #182051;
+font-family: Lobster;
+}
+/* Hero Image */
+.hero-image{
+  position: relative;
+  margin-top: 2%;
+  height: 100%;
+  overflow: hidden;
+  background: url(imagenes/heroimage.jpg) no-repeat center;
+  background-size: cover;
+}
+.container{
+  top: 12%;
+  left: 50%;
+  position: absolute;
+  transform:translate(-50%,-50%);
+  overflow: hidden;
+  text-transform: uppercase;
+}
+.container h1{
+  text-align:center;
+  margin: 0;
+  font-size: 50px;
+  color:transparent;
+  font-weight: normal;
+  background: linear-gradient(yellow,white,purple);
+    -webkit-background-clip: text;
+}
+
+.dis{
+  color: #313131;
+  padding:10px 24px;
+  font-size: 20px;
+  text-decoration: none;
+  background: #f1f1f1;
+  border-radius: 8px;
+  transition: 0.3s all;
+}
+.diseño:hover{
+  opacity:0.8;
+}
+/* Barra de Navegacion */
+ul {
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow:hidden;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: purple;
+}
+
+li a.active {
+  color: #b20000;
+  background-color: #b20000;
+}
+
+.active {
+  background-color: #b20000;
+}
+/* INICIO */
+h1 {
+  font-size: 50px;
+  text-align:center;
+  color:transparent;
+  font-weight: normal;
+  background: linear-gradient(
+    yellow,
+    white,
+    purple
+    );
+    -webkit-background-clip: text;
+}
+p{
+  margin:30px;
+  color: white;
+}
+.imagen{
+  text-align: center;
+}
+/* GALERIA */
+.imagen{
+  margin-left: 5px;
+}
+
+div.Gal img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+/* FORMULARIO */
+p{
+  text-align: center;
+  font-family: sans-serif;
+}
+legend{
+  color:white;
+  text-align: center;
+}
+fieldset{
+  color:white;
+  text-align: center;
+}
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
+/* Pie de Pagina */
+.Facebook{
+  background: #313438;
+  border: 3px solid black;
+  text-align: center;
+  font-family: arial;
+  color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  clear: both;
+  margin-bottom: -12px;
+}
+a{
+  color: white;
+}
